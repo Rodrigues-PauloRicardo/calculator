@@ -7,8 +7,7 @@
 
 <h2 Status:  🚀 Concluído .</h2>
 
- [![Netlify Status](https://api.netlify.com/api/v1/badges/5fc8d938-d177-485f-a3d5-4e12e3c732fc/deploy-status)](https://app.netlify.com/sites/calculadora-simples-estudo/deploys)
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5fc8d938-d177-485f-a3d5-4e12e3c732fc/deploy-status)](https://app.netlify.com/sites/calculadora-estudo/deploys)
 ### 🛠 Tecnologias
 HTML, CSS e Javascript
 
