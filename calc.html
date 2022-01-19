@@ -8,18 +8,20 @@
     <link rel="stylesheet" href="calcstyle.css">
 </head>
 
-<body>
-    <section> 
+<body>        
+            <div class="container">
+        <div class="batata">            
+                <div class="inputs">
+                        <div class="topo">
 
         <img src="imagens/pink.png" alt="imgPink">    
         
-            <h1>Calculadora</h1>            
+            <h1>Calculadora</h1>                       
+    </div>
     
-                <div class='form'>                    
-                    
-                    <div class= "box">
-                    <input class="textview" name='textview'>                                      
-                 </div>
+                <form name='form'>           
+                    <form class= "box">
+                    <input class="textview" name='textview'>  </form>                                    
 
                     <div class= "box">                    
                             <input type="button" class='button' onclick='c()' value="C">
@@ -53,13 +55,15 @@
                             <input type='button' value='0' onclick="insert(0)" class='button' id='n1'>
                             <input type='button' value='.' onclick="insert('.')" class='button' id='n0'>
                     </div>
-    
-              
 
+                </div>
+        </div>
+                                         <footer>Desenvolvido por Paulo Ricardo. Todos os direitos reservados®</footer>
               
-               
-                    <footer>Desenvolvido por Paulo Ricardo. Todos os direitos reservados®</footer>
-     </section>
+                        </div>
+                     
+
+
     <script src="testarCalc.js"></script>
 
     </body>
