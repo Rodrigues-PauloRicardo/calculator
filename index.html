@@ -1,78 +1,149 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="calcstyle.css">
-</head>
+    <link rel="stylesheet" href="calcstyle.css" />
+  </head>
 
-<body>        
-            <div class="container">
+  <body>
+    <div class="container">
+      <div class="calc">
+        <div class="inputs">
+          <div class="topo">
+            <img src="imagens/pink.png" alt="imgPink" />
 
-                   <div class="calc">          
-                           
-                          <div class="inputs">                    
-                       
-                       
-                        <div class="topo">      
-        
-                                <img src="imagens/pink.png" alt="imgPink">    
-        
-            <h1>Calculadora</h1>     </div>                    
-    
-    
-                <form name='form'>      
-                    
-                    <input class="textview" name='textview'>                                   
+            <h1>Calculadora</h1>
+          </div>
 
-                    <div class= "box">                    
-                            <input type="button" class='button' onclick='c()' value="C">
-                            <input type="button" class='button' onclick="back()" value="del">
-                            <input type="button" class='button' onclick="insert('/')" value="/">
-                            <input type="button" class='button' onclick="insert('*')" value="*">
-                    </div> 
-    
-                    <div class= "box">                         
-                            <input type="button" class='button' onclick="insert(7)" value="7">
-                            <input type="button" class='button' onclick="insert(8)" value="8">
-                            <input type="button" class='button' onclick="insert(9)" value="9">
-                            <input type="button" class='button' onclick="insert('+')" value="+">
-                    </div> 
-    
-                    <div class= "box">  
-                            <input type="button" class='button' onclick="insert(4)" value="4">
-                            <input type="button" class='button' onclick="insert(5)" value="5">
-                            <input type="button" class='button' onclick="insert(6)" value="6">
-                            <input type="button" class='button' onclick="insert('-')" value="-">
-                    </div>
-    
-                    <div class= "box">
-                            <input type="button" class='button' onclick="insert(1)" value="1">
-                            <input type="button" class='button' onclick="insert(2)" value="2">
-                            <input type="button" class='button' onclick="insert(3)" value="3">
-                            <input type="button" class='button' onclick='equal()' value="=">                        
-                    </div>
-    
-                    <div class= "box">
-                            <input type='button' value='0' onclick="insert(0)" class='button' id='n1'>
-                            <input type='button' value='.' onclick="insert('.')" class='button' id='n0'>
-                    </div>
+          <form name="form">
+            <input class="textview" name="textview" />
 
-                </form>  
+            <div class="box">
+              <input type="button" class="button" onclick="c()" value="C" />
+              <input
+                type="button"
+                class="button"
+                onclick="back()"
+                value="del"
+              />
+              <input
+                type="button"
+                class="button"
+                onclick="insert('/')"
+                value="/"
+              />
+              <input
+                type="button"
+                class="button"
+                onclick="insert('*')"
+                value="*"
+              />
+            </div>
 
+            <div class="box">
+              <input
+                type="button"
+                class="button"
+                onclick="insert(7)"
+                value="7"
+              />
+              <input
+                type="button"
+                class="button"
+                onclick="insert(8)"
+                value="8"
+              />
+              <input
+                type="button"
+                class="button"
+                onclick="insert(9)"
+                value="9"
+              />
+              <input
+                type="button"
+                class="button"
+                onclick="insert('+')"
+                value="+"
+              />
+            </div>
 
+            <div class="box">
+              <input
+                type="button"
+                class="button"
+                onclick="insert(4)"
+                value="4"
+              />
+              <input
+                type="button"
+                class="button"
+                onclick="insert(5)"
+                value="5"
+              />
+              <input
+                type="button"
+                class="button"
+                onclick="insert(6)"
+                value="6"
+              />
+              <input
+                type="button"
+                class="button"
+                onclick="insert('-')"
+                value="-"
+              />
+            </div>
 
-                </div>
-                </div>
-                                            <!--       <footer>Desenvolvido por Paulo Ricardo. <br>Todos os direitos reservados®</footer>-->
-        </div>              
-          
+            <div class="box">
+              <input
+                type="button"
+                class="button"
+                onclick="insert(1)"
+                value="1"
+              />
+              <input
+                type="button"
+                class="button"
+                onclick="insert(2)"
+                value="2"
+              />
+              <input
+                type="button"
+                class="button"
+                onclick="insert(3)"
+                value="3"
+              />
+              <input type="button" class="button" onclick="equal()" value="=" />
+            </div>
 
+            <div class="box">
+              <input
+                type="button"
+                value="0"
+                onclick="insert(0)"
+                class="button"
+                id="n1"
+              />
+              <input
+                type="button"
+                value="."
+                onclick="insert('.')"
+                class="button"
+                id="n0"
+              />
+            </div>
+          </form>
+
+          <footer>
+            Desenvolvido por Paulo Ricardo. <br />Todos os direitos reservados®
+          </footer>
+        </div>
+      </div>
+    </div>
 
     <script src="testarCalc.js"></script>
-
-    </body>
-
+  </body>
 </html>
